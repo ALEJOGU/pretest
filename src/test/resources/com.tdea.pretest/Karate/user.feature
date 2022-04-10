@@ -7,7 +7,7 @@ Feature:  user
 
 
   Scenario: Login user
-    Given url 'http//localhost:8080/user/login'
+    Given url 'http://localhost:8080/user/login'
     And param username = 'admin'
     And param password = 'admin'
     When method get
