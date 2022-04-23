@@ -6,7 +6,8 @@ public class KarateRun {
 
     @Karate.Test
     Karate KarateKid (){
-       return Karate.run("classpath:com.tdea.pretest/Karate");
+
+        return Karate.run("classpath:com.tdea.pretest/Karate");
     }
 
 }
